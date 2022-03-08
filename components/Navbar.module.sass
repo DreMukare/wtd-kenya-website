@@ -1,17 +1,58 @@
+@use '../styles/responsive'
+  
+// to be moved to partial later
+$xl: 87.5em // 4k and hi res monitors
+$lg: 60em // 1080p and hi res laptops
+$med: 40em // hi res tablets and low res laptops
+$sm: 28em // mobile and low res tablets
+$xs: 20em // mobile only
+  
 .navbar
   display: flex
   padding: 2rem 3rem 2rem 3rem
   justify-content: space-between
+  align-items: center
   border-bottom: 1px solid grey
 
   .links 
       display: flex
       gap: 2rem
-
-  .links > a
-      outline: 2px solid red
+      color:#EA526F
+      @include responsive.responsive($sm)
+        display: none
 
   .links > a:hover
       font-size: 1.2em
       transform: translateY(-10px)
       transition: all 0.4s linear
+      color: #6A4C93
+
+  button
+    display: none
+    background: none
+    border: none
+    @include responsive.responsive($sm)
+      display: flex
+
+  .responsive
+    color: #EA526F
+    width: 2rem
+    height: 2rem
+    display: none
+    @include responsive.responsive($sm)
+      display: block
+
+.mobile_links
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    padding: 1.5rem 3rem 1.5rem 3rem
+    color:#fcfcfc
+    background: linear-gradient(20.16deg, #6A4C93 25.35%, #EA526F 90.07%)
+    display: none
+
+    a:hover
+      font-size: 1.2em
+      transform: translateY(-10px)
+      transition: all 0.4s ease
+      color: #EA526F
