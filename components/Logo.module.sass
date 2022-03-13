@@ -1,8 +1,11 @@
+@use '../styles/responsive'
 @import '../styles/_globalVars'
 
 .logo
   font-family: $logoFont
   font-size: 1.6em
+  @include responsive.responsive($sm)
+      font-size: 1.3em
 
   &:hover
     transition-property: all

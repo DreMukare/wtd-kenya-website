@@ -2,6 +2,7 @@
 @import '../styles/_globalVars'
   
 .navbar
+  min-width: 100vw
   margin-bottom: 0
   display: flex
   padding: 2rem 3rem 2rem 3rem
@@ -9,6 +10,8 @@
   align-items: center
   font-family: $other
   font-weight: $medium
+  @include responsive.responsive($sm)
+    padding: 2rem 1rem 2rem 1rem
 
   .links 
       display: flex

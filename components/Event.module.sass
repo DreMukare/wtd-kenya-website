@@ -1,0 +1,25 @@
+@use '../styles/responsive'
+@import '../styles/_globalVars'
+
+
+.event 
+  box-shadow: $shadow
+  padding: 1em 0.9em
+  min-width: 396px
+  max-width: 396px
+  @include responsive.responsive($sm)
+    max-width: 300px
+    min-width: 300px
+
+  &:hover
+    transform: translateY(-9px)
+    transition-property: all
+    transition-timing-function: cubic-bezier(0.2, 0.6, 1, 2)
+    transition-duration: 0.4s
+  
+  h4
+    color: $pink
+    font-family: $headings
+
+  p span
+    font-weight: $bold
