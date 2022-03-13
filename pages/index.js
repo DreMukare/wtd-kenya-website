@@ -11,6 +11,9 @@ export default function Home() {
 			<Head>
 				<title>WTD - Kenya</title>
 				<meta name='description' content='Write The Docs Kenya official site' />
+				<meta property='og:title' content='Write The Docs KE' />
+				<meta property='og:locale' content='en_US' />
+				<meta property='og:type' content='article' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
