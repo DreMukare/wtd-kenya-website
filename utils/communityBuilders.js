@@ -8,6 +8,7 @@ export const communityBuilders = [
 		email: 'ivywalobwa@gmail.com',
 		github: '',
 		twitter: '',
+		blogs: [],
 	},
 	{
 		name: 'Esther Wavinya',
@@ -18,6 +19,7 @@ export const communityBuilders = [
 		email: 'estherwavinya80@gmail.com',
 		github: '',
 		twitter: '',
+		blogs: [],
 	},
 	{
 		name: 'Andrew Mukare',
@@ -28,6 +30,7 @@ export const communityBuilders = [
 		email: 'dremukare@gmail.com',
 		github: 'https://github.com/DreMukare',
 		twitter: 'https://twitter.com/MukareAndrew',
+		blogs: [],
 	},
 	{
 		name: 'Valentine Gatwiri',
@@ -38,6 +41,7 @@ export const communityBuilders = [
 		email: '',
 		github: '',
 		twitter: '',
+		blogs: [],
 	},
 	{
 		name: 'Sharon Jebitok',
@@ -48,6 +52,7 @@ export const communityBuilders = [
 		email: 'sharonkosgei4@gmail.com',
 		github: '',
 		twitter: '',
+		blogs: [],
 	},
 	{
 		name: 'Guantai Nicholas',
@@ -58,6 +63,7 @@ export const communityBuilders = [
 		email: 'nicholasguantai528@gmail.com',
 		github: '',
 		twitter: '',
+		blogs: [],
 	},
 	{
 		name: 'Clifford Ouma',
@@ -68,6 +74,7 @@ export const communityBuilders = [
 		email: 'ochiengclifford2000@gmail.com',
 		github: '',
 		twitter: '',
+		blogs: [],
 	},
 	{
 		name: 'Collins Jumah',
@@ -78,5 +85,6 @@ export const communityBuilders = [
 		email: 'collynejumah2010@gmail.com',
 		github: '',
 		twitter: '',
+		blogs: [],
 	},
 ];

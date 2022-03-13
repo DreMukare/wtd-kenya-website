@@ -4,6 +4,7 @@ import Events from '../components/Events';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Reviewers from '../components/Reviewers';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -22,9 +23,11 @@ export default function Home() {
 				<Navbar />
 			</header>
 
-			<Hero />
-
-			<Events />
+			<main>
+				<Hero />
+				<Events />
+				<Reviewers />
+			</main>
 
 			{/*<Footer />*/}
 		</div>
