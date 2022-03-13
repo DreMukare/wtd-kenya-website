@@ -18,9 +18,7 @@ export default function Home() {
 				<Navbar />
 			</header>
 
-			<main>
-				<Hero />
-			</main>
+			<Hero />
 
 			<Footer />
 		</div>
