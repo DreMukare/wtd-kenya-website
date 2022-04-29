@@ -23,7 +23,6 @@ const Reviewers = () => {
 						img={img}
 						name={name}
 						title={title}
-						available={available}
 						articlesReviewed={articlesReviewed}
 					/>
 				))
